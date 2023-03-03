@@ -6,14 +6,13 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.doodle</groupId>
-    <artifactId>doodle-rpg-bom</artifactId>
+    <artifactId>doodle-rpg</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <relativePath>doodle-rpg-bom/pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
-  <artifactId>doodle-rpg</artifactId>
+  <artifactId>doodle-rpg-independent</artifactId>
   <packaging>pom</packaging>
   <modules>
-    <module>doodle-rpg-bom</module>
-    <module>doodle-rpg-independent</module>
+    <module>doodle-rpg-excel</module>
   </modules>
 </project>
